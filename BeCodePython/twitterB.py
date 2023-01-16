@@ -23,7 +23,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 # import re
 
-client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAHtufAEAAAAA%2Fi8drHjTJWK%2FZePaM9zDhxRT1ck%3DAkD2YaOSNNjO2F1ZwTbPpORxpAEnDG6wjpUXq5KI5cBew16S1o',
+client = tweepy.Client(bearer_token=TOKEN,
                        return_type=requests.Response
                        )
 
